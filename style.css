@@ -1,0 +1,20 @@
+.timerBtn{
+    width: 80px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: aliceblue;
+    cursor: pointer;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#timeDisplay{
+    font-size: 50px;
+    color: blue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#timeContainer{
+text-align: center;
+border: 1px solid;
+border-radius: 20px;
+background-color: azure;
+}
