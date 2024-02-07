@@ -26,15 +26,15 @@ pauseBtn.addEventListener("click", () =>{
         clearInterval(intervalId);
     }
 });
-resetBtn.addEventListener("click", () =>{
-    paused = true
+resetBtn.addEventListener("click", () => {
+    paused = true;
     clearInterval(intervalId);
-    let startTime = 0;
-    let elapsedTime = 0;
-    let currentTime = 0;
-    let hrs = 0;
-    let mins = 0;
-    let secs = 0;
+     startTime = 0;
+     elapsedTime = 0;
+     currentTime = 0;
+     hrs = 0;
+     mins = 0;
+     secs = 0;
     timeDisplay.textContent = "00:00:00";
 });
 
